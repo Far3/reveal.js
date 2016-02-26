@@ -4,7 +4,7 @@
 	<head>
 		<meta charset="utf-8">
 
-		<title>reveal.js – The HTML Presentation Framework</title>
+		<title>Accessibility</title>
 
 		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
 		<meta name="author" content="Hakim El Hattab">
@@ -41,37 +41,31 @@
 			<!-- Any section element inside of this container is displayed as a slide -->
 			<div class="slides">
 				<section>
-					<h1>Reveal.js</h1>
-					<h3>The HTML Presentation Framework</h3>
+					<h1>Accessibility</h1>
 					<p>
-						<small>Created by <a href="http://hakim.se">Hakim El Hattab</a> / <a href="http://twitter.com/hakimel">@hakimel</a></small>
+						<small>FED Team</small>
 					</p>
 				</section>
 
 				<section>
-					<h2>Hello There</h2>
+					<h2>What is accessibility?</h2>
 					<p>
-						reveal.js enables you to create beautiful interactive slide decks using HTML. This presentation will show you examples of what it can do.
+						Making all users be able to recieve the same level of information regardless of impairment. 
 					</p>
 				</section>
 
 				<!-- Example of nested vertical slides -->
 				<section>
 					<section>
-						<h2>Vertical Slides</h2>
-						<p>Slides can be nested inside of each other.</p>
-						<p>Use the <em>Space</em> key to navigate through all slides.</p>
-						<br>
-						<a href="#" class="navigate-down">
-							<img width="178" height="238" data-src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Down arrow">
-						</a>
+						<h2>Who needs accessibility?</h2>
+						<p></p>
 					</section>
 					<section>
-						<h2>Basement Level 1</h2>
-						<p>Nested slides are useful for adding additional detail underneath a high level horizontal slide.</p>
+						<h2>Low Vision or blindness.</h2>
+						<img src="http://placehold.it/350x150"></img>
 					</section>
 					<section>
-						<h2>Basement Level 2</h2>
+						<h2></h2>
 						<p>That's it, time to go back up.</p>
 						<br>
 						<a href="#/2">
@@ -106,19 +100,34 @@
 
 				<section data-markdown>
 					<script type="text/template">
-						## Markdown support
-
-						Write content using inline or external Markdown.
-						Instructions and more info available in the [readme](https://github.com/hakimel/reveal.js#markdown).
-
-						```
-						<section data-markdown>
-						  ## Markdown support
-
-						  Write content using inline or external Markdown.
-						  Instructions and more info available in the [readme](https://github.com/hakimel/reveal.js#markdown).
-						</section>
-						```
+						## Accessible Tables
+						<pre><code class="hljs " data-trim contenteditable>
+							<table>
+								<caption>Monthly Budget</caption>
+								<thead>
+								<tr>
+								<th scope="col">Month</th>
+							    <th scope="col">Amount Earned</th>
+							    <th scope="col">Amount Spent</th>
+							    <th scope="col">Amount Saved</th>
+								</tr>
+						  		</thead>
+						 		<tbody>
+						 		<tr>
+								<th scope="row">January</th>
+								<td>$2500</td>
+								<td>$1500</td>
+								<td>$500</td>
+								</tr>
+								<tr>
+								<th scope="row">February</th>
+								<td>$2700</td>
+								<td>$1500</td>
+								<td>$700</td>
+								</tr>
+								</tbody>
+							</table>
+						</code></pre>
 					</script>
 				</section>
 
